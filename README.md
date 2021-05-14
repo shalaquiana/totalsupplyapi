@@ -1,4 +1,4 @@
-usage instructions:
+## usage instructions:
 1.
 ```git clone https://github.com/shalaquiana/totalsupplyapi.git```
 
