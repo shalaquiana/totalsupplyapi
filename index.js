@@ -1,6 +1,7 @@
 var Web3 = require('web3');
 var http = require('http');
-const web3 = new Web3(new Web3.providers.HttpProvider("https://mainnet.infura.io/v3/336b0ce09ffb42738444aa6003804e2f"))
+var id = "PASTE_ID_IN_THESE_QUOTATIONS";
+const web3 = new Web3(new Web3.providers.HttpProvider(`https://mainnet.infura.io/v3/${id}`))
 
 const TOKEN_ADDRESS = "0x29641e1096d4240b09a933839feac57b200652a4";
 
