@@ -430,6 +430,7 @@ async function getData() {
 
 var server = http.createServer(async function  (req, res) {
     var ts = await getData();
+    res.write(ts);
     res.end();
 });
 
